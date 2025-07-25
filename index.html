@@ -5,10 +5,12 @@
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Fitness App</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@300;400;600;700;&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    
+  </head>
 </head>
 <body>
     <nav class="navbar">
@@ -24,53 +26,75 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a class="button" href="#"> <i class="fa-solid fa-user"></i> Log In</a></li>
+                <li><a class="btn" href="#"> <i class="fa-solid fa-user"></i> Log In </a></li>
             </ul>
         </div>
+        <!-- Hamburger Button 
+        <button class="hamburger-button">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>  -->
+        <!-- <div class="mobile-menu">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a class="btn" href="#"> <i class="fas fa-user"></i> Log In </a>
+            </li>
+          </ul>
+        </div> -->
         </div>
     </nav>
     
     <!--Hero section-->
+
 <section class="hero">
     <div class="container">
         <div class="hero-content">
-            <h1 class="hero-heading">
+            <h1 class="hero-heading text-xxl">
             Transform Your Fitness Journey. Start Today!
             </h1>
-            <p class="hero-text1">
+            <p class="hero-text">
             Track workouts, monitor progress, and achieve your goals with our
             all-in-one fitness app.
             </p>
             <div class="hero-buttons">
-            <a href="#" class="btn">Get Started</a>
-            <a href="" class="btn">
-                <i class="fa-solid fa-dumbbell"></i>Book a Demo</a>
+            <a href="#" class="btn btn-primary">Get Started</a>
+            <a href="" class="btn"> <i class="fa-solid fa-dumbbell"></i> Book a Demo </a>
             </div>      
         </div>
     </div>
 </section>
 
-<!-- Video Section
-<section class="video background">
-    <div class="container=second">
-    <h2 class="video-heading">
-    Discover how our app works and get fit in no time
+ <!-- Video section -->
+<section class="video bg-black">
+    <div class="container-second">
+    <h2 class="video-heading  text-xl2 text-center">
+    Discover how our app works and get fit in <br>no time
     </h2>
     <div class="video-area">
-    <a href="#"><img src="images/video-preview.png" alt="video"></a>
-    <a href="#" class="btn">Get Started</a>
+    <a href="#"><img src="./images/video-preview.png" alt="video" class="video-preview"></a>
+    <a href="#" class="btn btn-primary">Get Started</a>
     </div>
     </div>
-</section> --> -->
+</section>
 
-<!-- Feedbacks
-<section class="feedback">
+<!-- Feedback Section -->
+<section class="feedback bg-dark">
     <div class="container">
-        <h3 class="feedback-heading">
+        <h3 class="feedback-heading text-xl">
          Hear from our satisfied users who transformed their lives.    
         </h3>
         <div class="feedback-grid">
-        <div class="card">
+        <div class="card card1">
         <p>
          “I've lost 10 pounds in just a month! This app keeps me motivated 
          and on track with my fitness goals.”   
@@ -80,7 +104,7 @@
         <p>Health Coach</p>
         </div>
         
-        <div class="card">
+        <div class="card card1">
         <p>
         “The workout plans are easy to follow, and the progress tracking
         feature is incredibly helpful. I feel stronger every day!”
@@ -90,7 +114,7 @@
         <p>Personal Trainer</p>
         </div>
 
-        <div class="card">
+        <div class="card card1">
         <p>
         “This app has changed my fitness routine completely. I love the
         community support and challenges!” 
@@ -103,34 +127,147 @@
     </div>
 </section>
 
-<!--pricing section
-<section class="pricing">
-<div class="container-p">
-<h3 class="pricing-heading">Pricing</h3>
-<p class="pricing-subheading">
-    Start with our free plan and unlock premium features as you grow
-    <div class="pricing-grid">
+<!-- pricing section -->
+ <section class="pricing">
+<div class="container-sm">
+<h3 class="pricing-heading text-xl text-center">Pricing</h3>
+<p class="pricing-subheading text-md text-center">
+    Start with our free plan and unlock premium features as you grow</p>
+
+    <div class="pricing-grid"> 
         <!--pricing card 1-->
-        <!-- <div class="lightblue card">
-            <div class="pricing-card-header"></div>
-            <h4 class="pricing-heading-text">Basic</h4>
+         <div class="card bg-light">
+            <div class="pricing-card-header">
+            <h4 class="pricing-heading text-xl">Basic</h4>
             <p class="pricing-card-subheading">
                 Ideal for beginners to track workouts and monitor progress
             </p>
             <p class="pricing-card-price">
-                <span class="span-text">free</span>
+                <span class="text-xl">free</span>
                 *No credit card needed
             </p>
-        </div>
-        <div class="pricing-card-body">
+            </div>
+            <div class="pricing-card-body">
             <ul>
-                <li> <i class=""></i>Customizable workout plans</li>
-                <li></li>
+                <li> <i class="fa-solid fa-check"></i> Customizable workout plans</li>
+                <li> <i class="fa-solid fa-check"></i> Track daily progress</li>
+                <li> <i class="fa-solid fa-check"></i> Nutrition tracker</li>
+                <li><i class="fa-solid fa-check"></i>Access to community challenges
+                </li>  
             </ul>
+            <a href="#" class="btn btn-primary btn-block">Get Started</a>
+        </div>
+        </div>
+       
+        <!-- Pricing card 2 -->
+         <div class="card bg-black">
+            <div class="pricing-card-header">
+                <h4 class="pricing-card-heading text-xl">Pro</h4>
+                <p class="pricing-card-subheading">
+                Everything in the Basic plan plus advanced features for serious
+                athletes.
+                </p>
+                <p class="pricing-card-price"> 
+                  <span class="text-xl">$29</span> /month
+                </p>
+            </div>
+            <div class="pricing-card-body">
+            <p>Unlock premium features</p>
+             <ul>
+                <li> <i class="fa-solid fa-check"></i>Personalized coaching</li>
+                <li> <i class="fa-solid fa-check"></i> Advanced analytics</li>
+                <li> <i class="fa-solid fa-check"></i> Offline access</li>  
+            </ul>
+            <a href="#" class="btn btn-primary btn-block">Get Started</a>
+            </div>
+         </div>
+    </div>
+    <p class="pricing-footer text-center">
+        All prices are in USD and charged per month with applicable taxes
+        added at checkout.
+    </p>
+</div>
+</section> 
+
+<!-- FAQ Section -->
+
+<section class="faq bg-light">
+    <div class="container-sm">
+        <h3 class="text-xl text-center">Frequently Asked Questions</h3>
+        <ul class="faq-menu">
+            <li class="active">All</li>
+            <li>Getting Started</li>
+            <li>Pricing</li>
+        </ul>
+        <div class="Faq-content">
+            <div class="faq-group">
+                <div class="faq-group-header">
+                    <h4 class="text-md">
+                         How can the app help me achieve my fitness goals?
+                        </h4>
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="faq-group-body open">
+                    <p>The app provides tailored workout plans, tracks your progress,
+                     and offers motivation to keep you on track.</p>
+                    </div>
+                </div>
+
+            <div class="faq-group">
+                <div class="faq-group-header">
+                  <h4 class="text-md">
+                         Can I customize my workout plans?
+                        </h4>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="faq-group-body">
+                    <p>Yes, you can create personalized workout plans based on your
+                    fitness level and goals.
+                   </p>
+                </div>
+             </div>
+
+           <div class="faq-group">
+                <div class="faq-group-header">
+                  <h4 class="text-md">
+                          Is there a free trial available?
+                        </h4>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="faq-group-body">
+                    <p>Yes, you can start with our free Basic plan to explore
+                     features before upgrading.
+                   </p>
+                </div>
+             </div>
         </div>
     </div>
-</p>
-</div>
-</section> --> -->
+</section>
+
+<!-- Footer -->
+<footer class="footer bg-dark">
+    <div class="container">
+        <div class="footer-content">
+            <div class="logo-footer">
+             <img src="./images/logo-white-footer.png" alt="Logo">
+            </div>
+          <ul class="link-footer">
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms of Service</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-text text-center">
+          <p>&copy; 2024 Fitness App by Emmanuel Nmaju. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
 </body>
 </html>
